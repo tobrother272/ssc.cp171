@@ -1,0 +1,11 @@
+{
+  "id": "brave-portable",
+  "guid": "{8AEE810B-2E26-4D32-B54F-64313E55C4AC}",
+  "name": "Brave Portable",
+  "version": "1.40.113",
+  "release": "82",
+  "date": "2022/07/15 02:52:30",
+  "publisher": "CrazyMax",
+  "url": "https://github.com/portapps/brave-portable",
+  "portapps_version": "3.6.0"
+}

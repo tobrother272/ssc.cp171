@@ -1,0 +1,79 @@
+
+
+@import 'colors.css';
+
+
+.combo-box .list-cell 
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-color-icon;
+    -fx-padding: 2 0 2 2;
+    -fx-cell-size: 1.66667em; 
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-background-insets: 0, 1;
+    -fx-background-color: -fx-color-background-blue;
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-padding: 4 0 4 5;
+    -fx-pref-height:30px;
+    /* No alternate highlighting */
+    -fx-background-color: white;
+    -fx-text-fill:  -fx-color-background-blue;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill:  -fx-color-background-blue;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-background-color: white;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.combo-box-base  
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-background-color: -fx-color-background-blue;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+
+}
+
+.combo-box-base:hover
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-color: -fx-color-background-blue;
+}
+
+.combo-box-base:showing 
+{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-color: -fx-color-background-blue;
+}
+
+.combo-box-base:focused {
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-background-color: -fx-color-background-blue;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box-base:disabled {
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-opacity: .4;
+}

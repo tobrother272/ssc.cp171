@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2022, 1:16:00 PM
+    Author     : PC
+*/
+
+
+@import 'colors.css';
+
+.btn-primary{
+    -fx-background-color:-fx-color-success;
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-padding: 5px 10px;
+    -fx-background-radius:5px; 
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+    -fx-effect:-fx-dropshadow-normal
+}
+.btn-primary:hover{
+    -fx-background-color:-fx-color-success-highlight;
+}
+.btn-primary:disabled{
+    -fx-background-color:-fx-color-success-dark;
+}
+
+.btn-secondary{
+    -fx-background-color:-fx-color-text-background;
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-background-radius:5px; 
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+}
+
+.btn-secondary  > .glyph-icon{
+    -fx-fill: #a4b0be;
+}
+.btn-secondary:hover{
+    -fx-background-color:-fx-color-text-background-focus;
+}
+.btn-secondary:hover > .glyph-icon{
+    -fx-fill: -fx-color-success;
+}
+
+
+.windowBar .button {
+    -fx-background-color:-fx-color-background-blue;
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-background-radius:5px; 
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+}
+
+.windowBar .button:hover{
+    -fx-background-color:-fx-color-background-blue-highlight;
+}
+.windowBar .button  > .glyph-icon{
+    -fx-fill:-fx-color-icon;
+}
+.windowBar .button:hover  > .glyph-icon{
+    -fx-fill:-fx-color-success;
+}
+
+
+.btn-nav-menu{
+    -fx-background-color:-fx-color-text-blue;
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+}
+
+.btn-nav-menu  > .glyph-icon{
+    -fx-fill: #a4b0be;
+}
+.btn-nav-menu:hover{
+    -fx-background-color:-fx-color-text-background-focus;
+}
+.btn-nav-menu:hover > .glyph-icon{
+    -fx-fill: -fx-color-success;
+}
+.ico-status > .glyph-icon{
+    -fx-fill: -fx-color-success;
+}
+
+.btn-nav-menu-active{
+    -fx-background-color:-fx-color-text-background-focus;
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+}
+.btn-nav-menu-active  > .glyph-icon{
+    -fx-fill: -fx-color-success;
+}
+
+
+/** **/
+
+.actionCol .button {
+    -fx-background-color:-fx-color-background-blue;
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-background-radius:5px; 
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+}
+
+.actionCol .button:hover{
+    -fx-background-color:-fx-color-background-blue-highlight;
+}
+.actionCol .button  > .glyph-icon{
+    -fx-fill:-fx-color-icon;
+}
+.actionCol .button:hover  > .glyph-icon{
+    -fx-fill:-fx-color-success;
+}
+/** **/
+
+
+.tableMenuBar .button {
+    -fx-background-color:-fx-color-background-blue;
+    -fx-font:normal 12px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-background-radius:5px; 
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+    -fx-padding:5px 10px 5px 10px;
+    -fx-effect:-fx-dropshadow-light;
+    
+}
+
+.tableMenuBar .button:hover{
+    -fx-background-color:-fx-color-background-blue-highlight;
+}
+.tableMenuBar .button  > .glyph-icon{
+    -fx-fill:#FFFFFF;
+}
+.tableMenuBar .button:hover  > .glyph-icon{
+    -fx-fill:-fx-color-success;
+}
+
+/** **/
+
+
+.selectModal{
+    -fx-spacing:10px;
+}
+
+.selectModal .button {
+    -fx-background-color:-fx-color-background-blue-heavy;
+    -fx-font:normal 12px "Quicksand"; 
+    -fx-text-fill:#FFF;
+    -fx-background-radius:5px; 
+    -fx-cursor: hand;
+    -fx-alignment: CENTER;
+    -fx-padding:5px 10px 5px 10px;
+    -fx-effect:-fx-dropshadow-light;
+}
+
+.selectModal .button:hover{
+    -fx-background-color:-fx-color-background-blue-highlight;
+}
+.selectModal .button  > .glyph-icon{
+    -fx-fill:#FFFFFF;
+}
+.selectModal .button:hover  > .glyph-icon{
+    -fx-fill:-fx-color-success;
+}

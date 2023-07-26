@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2022, 1:16:00 PM
+    Author     : PC
+*/
+
+
+@import 'colors.css';
+
+.formGroup .text-field{
+    -fx-font:normal 12px "Quicksand"; 
+    -fx-text-fill:-fx-text-fill-color;
+    -fx-background-color:-fx-color-text-background;
+    -fx-padding: 5px 10px;
+    -fx-pref-height:40px;
+    -fx-background-radius:5px;
+}
+.formGroup .text-field:focused{
+    -fx-background-color:-fx-color-text-background-focus;
+}
+
+ .text-field{
+    -fx-font:normal 12px "Quicksand"; 
+    -fx-text-fill:-fx-text-fill-color;
+    -fx-background-color:-fx-color-text-background;
+    -fx-padding: 5px 10px;
+    -fx-pref-height:40px;
+    -fx-background-radius:5px;
+}
+ .text-field:focused{
+    -fx-background-color:-fx-color-text-background-focus;
+}
+
+
+/*
+   combobox
+*/
+.formGroup .combo-box 
+{
+    -fx-background-color: #2B2B2B;
+    -fx-font: bold 12px "Quicksand";  
+    -fx-padding: 0 5 0 7;
+    -fx-text-fill: #182343;
+    -fx-cell-size: 1.66667em; 
+}
+.formGroup .combo-box .list-cell 
+{
+    -fx-font: bold 12px "Quicksand";  
+    -fx-padding: 0 5 0 7;
+    -fx-cell-size: 1.66667em; 
+    -fx-text-fill: #182343;
+    -fx-background-color: #2B2B2B;
+}
+.formGroup .combo-box-popup .list-view 
+{
+    -fx-background-color: #2B2B2B;
+    -fx-background-radius: 0 0 5 5;
+    -fx-font: bold 12px "Quicksand";  
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}    
+
+.formGroup .combo-box-popup .list-view .list-cell 
+{
+    -fx-padding: 0 5 0 5;
+    -fx-background-color: #2B2B2B;
+    /* No alternate highlighting */
+
+}
+
+.formGroup .combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background-color: rgba(1,97,177,0.6);
+    -fx-text-fill: #182343;
+
+}
+
+.formGroup .combo-box-popup .list-view .list-cell:filled:hover 
+{   
+    -fx-text-fill: #182343;
+    -fx-background-color:  rgba(1,97,177,0.6);
+
+}
+
+.formGroup .combo-box-base  
+{
+    -fx-pref-width:450px;
+    -fx-pref-height:30px;
+    -fx-text-fill: #182343;
+    -fx-background-color: #2B2B2B;
+    -fx-background-radius: 5;
+    -fx-border-color: #D4d4d4;
+    -fx-border-style: solid;
+    -fx-border-radius:5;
+}
+.formGroup .combo-box-base:hover
+{
+    -fx-background-color:transparent;
+}
+.formGroup .combo-box-base:showing 
+{
+    -fx-pref-width:450px;
+    -fx-pref-height:30px;
+    -fx-text-fill: #182343;
+    -fx-background-color:transparent;
+}
+
+.formGroup .combo-box-base:focused {
+    -fx-background-color:transparent;
+}
+
+.formGroup .combo-box-base:disabled {
+    -fx-opacity: .4;
+}
+
+
+

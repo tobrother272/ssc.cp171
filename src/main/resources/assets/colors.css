@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2022, 11:28:09 AM
+    Author     : PC
+*/
+@font-face {
+    font-family: Quicksand;
+    src: url("Quicksand-Regular.ttf");
+}
+@font-face {
+    font-family: Quicksand;
+    src: url("Quicksand-Bold.ttf");
+}
+@font-face {
+    font-family: Quicksand Light;
+    src: url("Quicksand-Light.ttf");
+}
+
+
+.root {
+    -fx-color-background-blue:#1E1E2D;
+    -fx-color-background-blue-highlight:#323248;
+    -fx-color-background-blue-heavy:#1A1A27;
+    -fx-color-primary:#3498DB;
+    
+    
+    -fx-color-icon:#595980;
+    
+    
+    -fx-color-background-main:#151521;
+    -fx-tableview-row-size:40px;
+    
+    
+    
+    -fx-color-text-background:#1B1B29;
+    -fx-color-text-background-focus:#171723;
+    -fx-color-grey:#a4b0be;
+    
+    
+    -fx-color-text-blue: #1E1E2D;
+    -fx-color-danger: #ff4757;
+    
+    
+    -fx-color-success: #3D94EB;
+    -fx-color-success-highlight: #187DE4;
+    -fx-color-success-dark: #10579E;
+    -fx-text-fill-color:#6F859F;
+        
+    /** dropshadow **/   
+    -fx-dropshadow-normal:dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+    -fx-dropshadow-light:dropshadow( three-pass-box , rgba(21, 21, 33,0.6) , 3, 0.0 , 0 , 0 );
+    -fx-dropshadow-normal-top:dropshadow( three-pass-box , rgba(0,0,0,0.6) , 0.0, 3.0, 0.0, -2.0);
+    -fx-dropshadow-hightlight:dropshadow( three-pass-box , rgba(112, 161, 255,0.6) , 8, 0.0 , 0 , 0 );
+    
+     
+}

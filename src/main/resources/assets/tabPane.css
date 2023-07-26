@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2022, 1:07:05 PM
+    Author     : PC
+*/
+
+/*
+Tab-pane
+*/
+.tab-pane 
+{
+    /*-fx-skin: "com.sun.javafx.scene.control.skin.TabPaneSkin"; */
+    /* -fx-tab-min-width: 4.583em;  55 */
+    /* -fx-tab-max-width: 4.583em; 55 */
+
+
+}
+.tab .tab-label 
+{
+    /*-fx-skin: "com.sun.javafx.scene.control.skin.LabelSkin"; */
+    -fx-background-color: red;  
+    -fx-alignment: CENTER;
+    -fx-text-fill:#182343;
+}
+.tab:top 
+{
+    -fx-background-color: red;  
+    -fx-font:normal 0px "Quicksand";
+    -fx-text-fill:#6B6B6B;
+}
+
+
+/*
+.tab *.tab-label Text {
+-fx-effect: dropshadow(two-pass-box , rgba(255, 255, 255, 0.4), 1, 0.0 , 0, 1);
+}*/
+.tab-content-area 
+{
+    -fx-padding: 0.0em; /* 0 */
+    /* -fx-opacity: -}fx-disabled-opacity;*/
+}
+.tab 
+{
+    /* This is how it is done in Button, but the -1 inset caused a white line  */
+    /* to appear beneath the tab, which looks bad, so it's taken out below.    */
+    /*    -fx-background-color: -fx-shadow-highlight-color, -fx-tab-border-color, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 5 5 0 0, 5 5 0 0, 4 4 0 0, 3 3 0 0;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;*/
+    /*    -fx-text-fill: -fx-text-base-color;*/
+    -fx-pref-height : 0px ;
+    -fx-pref-width : 0px ; 
+}
+
+.tab:left 
+{
+    -fx-background-color: transparent;  
+    -fx-font: normal 0px "Quicksand";
+    -fx-text-fill:#6B6B6B;
+    -fx-pref-width : 0px ;
+}
+.tab:selected 
+{
+    /*    -fx-background-color: white;*/
+    /*    -fx-background-color: -fx-tab-border-color, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+    -fx-background-insets: 0, 1 1 0 1, 2 2 0 2;*/
+    -fx-text-fill: white;
+}
+.tab:disabled 
+{
+
+}
+.tab:disabled:hover 
+{
+    -fx-color: -fx-base;
+
+}
+.tab-pane *.tab-header-background 
+{
+    -fx-background-color: transparent;
+    -fx-text-fill:#6B6B6B;
+
+}
+/*.tab-pane *.tab-header-area {*/
+/* I would like to use -fx-tab-border-color here, but for some reason it */
+/* just isn't the correct color, even though it works in :top above */
+/*    -fx-background-color: -fx-tab-border-color, lightgray;*/
+/*}*/
+.tab-pane:top *.tab-header-area 
+{
+    -fx-pref-height : 29px ;
+    -fx-text-fill:#6B6B6B;
+}
+.tab-pane .headers-region 
+{  
+
+}
+/* TODO: scaling the shape seems to make it way too large */
+.tab-close-button 
+{
+    -fx-shape: "M 0,0 H1 L 4,3 7,0 H8 V1 L 5,4 8,7 V8 H7 L 4,5 1,8 H0 V7 L 3,4 0,1 Z";
+    -fx-scale-shape: false;
+    -fx-effect: dropshadow(two-pass-box , rgba(255, 255, 255, 0.4), 1, 0.0 , 0, 1);
+}
+.tab-close-button:hover 
+{
+}

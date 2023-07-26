@@ -10,6 +10,14 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+tool/Brave/
+tool/gologin/node_modules/
+temps/
+ErrImage/
+target/
+temps_sh/
+
+
 # Package Files #
 *.jar
 *.war

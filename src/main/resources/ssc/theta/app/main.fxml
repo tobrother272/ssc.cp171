@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="mainContainer" prefHeight="768.0" prefWidth="1366.0" styleClass="mainContainer" stylesheets="@../../../assets/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ssc.theta.app.MainController">
+    <children>
+        <AnchorPane prefHeight="60.0" prefWidth="1366.0" styleClass="topPane">
+            <children>
+                <HBox fx:id="windowBar" alignment="CENTER_RIGHT" layoutX="1136.0" layoutY="9.0" prefHeight="41.0" prefWidth="217.0" styleClass="windowBar" />
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="navPane" layoutY="60.0" prefHeight="708.0" prefWidth="60.0" styleClass="topPane" />
+        <AnchorPane fx:id="screenTopBar" layoutX="60.0" layoutY="60.0" prefHeight="50.0" prefWidth="1306.0" styleClass="screenTopBar">
+            <children>
+                <Label fx:id="lbScreenTitle" layoutX="14.0" layoutY="15.0" prefHeight="17.0" prefWidth="327.0" styleClass="labelFor" text="..." />
+            </children>
+        </AnchorPane>
+        <TabPane fx:id="contentContainer" layoutX="60.0" layoutY="70.0" prefHeight="700.0" prefWidth="1306.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Profiles">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <AnchorPane fx:id="profilesContainer" layoutX="15.0" layoutY="15.0" prefHeight="600.0" prefWidth="1270.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="View">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <AnchorPane fx:id="viewPane" layoutX="15.0" layoutY="15.0" prefHeight="600.0" prefWidth="1270.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <HBox fx:id="apChildMenu" alignment="CENTER_RIGHT" layoutX="461.0" layoutY="71.0" prefHeight="30.0" prefWidth="873.0" styleClass="tableMenuBar" />
+        <AnchorPane fx:id="tooltipPane" layoutY="60.0" prefHeight="30.0" prefWidth="1366.0" styleClass="tooltipPane" visible="false">
+            <children>
+                <Label fx:id="lbToolTipMessage" layoutX="20.0" layoutY="6.0" prefHeight="17.0" prefWidth="388.0" styleClass="lbToolTip" text="Label" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

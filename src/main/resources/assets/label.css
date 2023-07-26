@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2022, 1:07:47 PM
+    Author     : PC
+*/
+
+@import 'colors.css';
+
+.labelFor{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: #FFF;
+}
+.labelMessage{
+    -fx-font:bold 10px "Quicksand"; 
+    -fx-text-fill: -fx-color-danger;
+}
+.lbToolTip{
+    -fx-font:bold 10px "Quicksand"; 
+    -fx-text-fill: #FFF;
+}
+.labelModalTitle{
+    -fx-font:bold 18px "Quicksand"; 
+    -fx-text-fill: #FFF;
+    -fx-alignment:CENTER;
+}
+.labelModalSubTitle{
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill: -fx-color-icon;
+    -fx-alignment:CENTER;
+}
+.labelRowMain{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: #FFF;
+    -fx-alignment:CENTER_LEFT;
+}
+.labelRowSecondary{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: -fx-color-icon;
+    -fx-alignment:CENTER_LEFT;
+}
+.lbStatusTitle{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: -fx-color-icon;
+    -fx-alignment:CENTER_LEFT;
+}
+.lbStatusValue{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: -fx-color-icon;
+    -fx-alignment:CENTER_RIGHT;
+}
+.labelTableMain{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: white;
+    -fx-alignment:CENTER_LEFT;
+}
+.labelTableSecondary{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: -fx-color-grey;
+    -fx-alignment:CENTER_LEFT;
+}
+.lb-message-error{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: #FFF;
+    -fx-alignment:CENTER_LEFT;
+}
+.lb-message-success{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: #FFF;
+    -fx-alignment:CENTER_LEFT; 
+}
+.lb-message-warning{
+    -fx-font:bold 12px "Quicksand"; 
+    -fx-text-fill: #FFF;
+    -fx-alignment:CENTER_LEFT;
+}
+.labelTableHeader{
+    -fx-font:bold 14px "Quicksand"; 
+    -fx-text-fill: #FFF;
+
+    -fx-alignment:CENTER;
+}
+.labelTableHeader2{
+    -fx-font:normal 10px "Quicksand"; 
+    -fx-text-fill: -fx-color-icon;
+    -fx-alignment:CENTER_LEFT;
+}

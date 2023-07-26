@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2022, 11:25:34 AM
+    Author     : PC
+*/
+@import 'colors.css';
+@import 'label.css';
+@import 'text.css';
+@import 'button.css';
+@import 'tabPane.css';
+@import 'tableview.css';
+@import 'combo-box.css';
+
+
+.loginContainer{
+    -fx-background-color:-fx-color-background-blue
+}
+.formGroup{
+    -fx-spacing:5px;
+}
+.mainContainer{
+    -fx-background-color:-fx-color-background-main  
+}
+.topPane{
+    -fx-background-color: -fx-color-background-blue
+}
+.windowBar {
+    -fx-spacing:5px;
+}
+.actionCol{
+    -fx-padding:10px 0px 10px 0px;
+}
+.tableMenuBar{
+    -fx-spacing:5px;
+    -fx-backgroud-radius:10px;
+}
+.tooltipPane{
+    -fx-background-color:  rgba(0, 0, 0,0.3);    
+}
+.modalBackground{
+    -fx-background-color:  rgba(0, 0, 0,0.3);    
+}
+.logBackground{
+    -fx-background-color:  -fx-color-background-blue-heavy;   
+    -fx-effect:-fx-dropshadow-normal-top;
+}
+.modalPane{
+    -fx-background-color:-fx-color-background-blue;
+    -fx-background-radius:10px;
+    -fx-effect:-fx-dropshadow-normal;
+}
+.screenTopBar{
+    -fx-background-color: -fx-color-background-blue-heavy
+}
+
+.statusPane{
+
+}
+.statusGroup{
+    -fx-background-color:-fx-color-background-blue;
+    -fx-background-radius:5px;
+    -fx-effect:-fx-dropshadow-normal;
+    -fx-cursor:hand;
+}
+.statusGroup:hover{
+    -fx-effect:-fx-dropshadow-hightlight;
+}
+.message-success{
+    -fx-background-color:  rgba(112, 161, 255,0.3);    
+}
+.message-error{
+    -fx-background-color:  rgba(255, 71, 87,0.3);    
+}
+.message-warning{
+    -fx-background-color:  rgba(255, 127, 80,0.3);    
+}

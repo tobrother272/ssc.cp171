@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="loginForm" prefHeight="600.0" prefWidth="400.0" styleClass="loginContainer" stylesheets="@../../../assets/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ssc.theta.app.LoginController" />
